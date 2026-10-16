@@ -33,20 +33,30 @@ The strongest thing I have shipped. A PS5 store front with **1,800+ titles** tha
 existed only as an opaque compiled bundle — the source was reconstructed from that bundle and the
 app rewritten as React + esbuild, so it can be read, changed and built again.
 
-| | |
-| --- | --- |
-| **What it does** | Browse, search, queue downloads, install and update games from the console UI — no browser round-trip, no PC required |
-| **Engineering** | Focus-driven controller navigation · 15 interface languages · RTL-aware layout · resumable download queue with multiple providers |
-| **Stack** | React · JavaScript · C++ · esbuild · ICU/i18n |
-| **License** | MIT |
-
 <table>
   <tr>
-    <td><a href="https://github.com/MrLowPr/overdrive">Source code</a></td>
-    <td><a href="https://github.com/MrLowPr/overdrive/releases/latest">Latest release</a></td>
-    <td><a href="https://github.com/MrLowPr/overdrive/blob/main/FORK-NOTES.md">Fork notes</a></td>
+    <td width="132" valign="top"><b>What it does</b></td>
+    <td valign="top">Browse, search, queue downloads, install and update games from the console UI — no browser round-trip, no PC required</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Engineering</b></td>
+    <td valign="top">Focus-driven controller navigation · 15 interface languages · RTL-aware layout · resumable download queue across multiple providers</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Stack</b></td>
+    <td valign="top">React · JavaScript · C++ · esbuild · ICU / i18n</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>License</b></td>
+    <td valign="top">MIT</td>
   </tr>
 </table>
+
+<p align="center">
+  <a href="https://github.com/MrLowPr/overdrive"><b>Source code</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/MrLowPr/overdrive/releases/latest"><b>Latest release</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/MrLowPr/overdrive/blob/main/FORK-NOTES.md"><b>Fork notes</b></a>
+</p>
 
 Maintained as a fork of [MyLuxy/overdrive](https://github.com/MyLuxy/overdrive), with every
 fork-specific change listed in [FORK-NOTES.md](https://github.com/MrLowPr/overdrive/blob/main/FORK-NOTES.md)
