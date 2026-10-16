@@ -1,9 +1,8 @@
-<img src="assets/profile-header.svg" alt="Mr. Lowprofile" width="100%">
+<img src="assets/profile-header-v2.svg" alt="Mr. Lowprofile" width="100%">
 
-<h1 align="center">Hi, I'm Mr. Lowprofile 👋</h1>
+<h1 align="center">Mr. Lowprofile</h1>
 <p align="center">
-  Web development, PS5 homebrew, and reverse engineering.<br>
-  I like taking closed, opaque software apart until it is readable again.
+  I build things for the web — and take closed software apart until it is readable again.
 </p>
 
 <p align="center">
@@ -11,51 +10,62 @@
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/PS5%20homebrew-00599C?style=for-the-badge&logo=playstation5&logoColor=white" alt="PS5 homebrew">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20to%20work-Available-brightgreen?style=for-the-badge" alt="Open to work">
-  <img src="https://img.shields.io/badge/Ask%20me%20-QA%20%2F%20reach%20me%20here-brightgreen?style=for-the-badge" alt="Open to questions">
+  <img src="https://img.shields.io/badge/Open%20to%20work-brightgreen?style=for-the-badge" alt="Open to work">
 </p>
 
 ---
 
-## 👋 About
+## What I do
 
-- I build things for the web, and I break things open to see how they work.
-- Most of my public code is front-end: HTML, CSS and JavaScript.
-- The project I care about most is **Overdrive** — a PS5 game store recovered from its own
-  binary and rebuilt as readable source.
-- Currently deepening my **Java** and **Python** fundamentals.
+<table>
+  <tr>
+    <td width="33%" valign="top"><b>🌐 Web development</b><br><sub>HTML, CSS and JavaScript — landing pages, ordering flows, admin panels, small tools that do one job properly.</sub></td>
+    <td width="33%" valign="top"><b>🔬 Reverse engineering</b><br><sub>Recovering source from shipped binaries, reading bundles, rebuilding an app so it can be modified again.</sub></td>
+    <td width="33%" valign="top"><b>🎮 Console homebrew</b><br><sub>Packaging and shipping software for the PS5: exFAT images, controller-first UI, on-device updates.</sub></td>
+  </tr>
+</table>
 
-## 📌 Overdrive — PS5 game store, rebuilt from its own binary
+## 📌 Overdrive — a PS5 game store, rebuilt from its own binary
 
 [![Overdrive banner](assets/banner.svg)](https://github.com/MrLowPr/overdrive)
 
-A PS5 game store with 1,800+ titles. The original shipped as an opaque bundle; the source was
-reconstructed from it and the app rebuilt as React + esbuild.
+The strongest thing I have shipped. A PS5 store front with **1,800+ titles** that originally
+existed only as an opaque compiled bundle — the source was reconstructed from that bundle and the
+app rewritten as React + esbuild, so it can be read, changed and built again.
 
-- Browse, search, queue downloads, install and update games from the console UI — no browser round-trip.
-- 15 interface languages, RTL-aware layout, controller-first focus navigation.
-- This repository is my fork of [MyLuxy/overdrive](https://github.com/MyLuxy/overdrive), with the
-  fork-only changes documented in [FORK-NOTES.md](https://github.com/MrLowPr/overdrive/blob/main/FORK-NOTES.md).
-
-Repo: **github.com/MrLowPr/overdrive** · React, JavaScript, C++, esbuild, i18n · MIT
-
-## 🛠️ Other work
-
-| Project | What it is |
+| | |
 | --- | --- |
-| [sosisbakar](https://github.com/MrLowPr/sosisbakar) | Web app for a food stall: landing page, ordering flow, QRIS/WhatsApp checkout, admin CMS |
-| [SandiGenerate](https://github.com/MrLowPr/SandiGenerate) | Browser-side password generator and strength tester, built on `crypto.getRandomValues` (CSPRNG) instead of `Math.random` |
-| [MrLowPr/overdrive](https://github.com/MrLowPr/overdrive) | Fork of the PS5 store project — fork notes, changelog and build identity |
+| **What it does** | Browse, search, queue downloads, install and update games from the console UI — no browser round-trip, no PC required |
+| **Engineering** | Focus-driven controller navigation · 15 interface languages · RTL-aware layout · resumable download queue with multiple providers |
+| **Stack** | React · JavaScript · C++ · esbuild · ICU/i18n |
+| **License** | MIT |
+
+<table>
+  <tr>
+    <td><a href="https://github.com/MrLowPr/overdrive">Source code</a></td>
+    <td><a href="https://github.com/MrLowPr/overdrive/releases/latest">Latest release</a></td>
+    <td><a href="https://github.com/MrLowPr/overdrive/blob/main/FORK-NOTES.md">Fork notes</a></td>
+  </tr>
+</table>
+
+Maintained as a fork of [MyLuxy/overdrive](https://github.com/MyLuxy/overdrive), with every
+fork-specific change listed in [FORK-NOTES.md](https://github.com/MrLowPr/overdrive/blob/main/FORK-NOTES.md)
+and released through [CHANGELOG.md](https://github.com/MrLowPr/overdrive/blob/main/CHANGELOG.md).
+
+## 🛠️ Also worth a look
+
+- **[SandiGenerate](https://github.com/MrLowPr/SandiGenerate)** — a password generator and strength tester that runs entirely in the browser on `crypto.getRandomValues` (CSPRNG) rather than `Math.random`, so the output is not guessable.
+- **[MrLowPr/overdrive](https://github.com/MrLowPr/overdrive)** — the Overdrive fork, kept in sync with upstream and documented at every fork-specific delta.
+
+## 📍 Currently
+
+- Deepening my **Java** and **Python** fundamentals.
+- **Open to work** — backend, full-stack or anything touching reverse engineering.
 
 ## 📫 Contact
 
-The fastest way to reach me is GitHub — open an issue or a discussion here:
-**[@MrLowPr](https://github.com/MrLowPr)**
+GitHub is the fastest way to reach me: **[@MrLowPr](https://github.com/MrLowPr)** — open an issue, a discussion, or say hello.
 
 <p align="center">
-  <sub>Built by hand. No trackers.</sub>
+  <sub>Hand-written, no trackers, no build step.</sub>
 </p>
