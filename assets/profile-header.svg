@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Mr. Lowprofile — Software Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0714"/>
+      <stop offset="0.55" stop-color="#1d1030"/>
+      <stop offset="1" stop-color="#2b0a1a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.86" cy="0.2" r="0.55">
+      <stop offset="0" stop-color="#f472b6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#dots)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <rect x="64" y="96" width="86" height="7" rx="3.5" fill="url(#accent)"/>
+  <text x="64" y="176" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" fill="#ffffff">Mr. Lowprofile</text>
+  <text x="64" y="222" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#d8c9dd">Software Developer &#183; Java &amp; Python &#183; PS5 homebrew</text>
+  <text x="1136" y="222" text-anchor="end" font-family="JetBrains Mono, ui-monospace, monospace" font-size="20" fill="#a99fb8">@MrLowPr</text>
+</svg>
