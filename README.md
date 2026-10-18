@@ -13,6 +13,8 @@
 
 ## 📌 Featured work — The Ultimate CTF Utils
 
+<img src="assets/banner-ctf-utils.svg" alt="The Ultimate CTF Utils" width="100%">
+
 ### Six CTF triage tools, one `npm install`
 
 [![The Ultimate CTF Utils](https://img.shields.io/badge/npm-the--ultimate--ctf--utils-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/the-ultimate-ctf-utils)
