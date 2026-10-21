@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="SandiGen Ultra — cryptographically secure password generator">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05081c"/>
+      <stop offset="0.5" stop-color="#141a44"/>
+      <stop offset="1" stop-color="#0a0d24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.55" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.76" cy="0.24" r="0.62">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <rect width="1280" height="640" fill="url(#dots)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+
+  <!-- left accent bar -->
+  <rect x="96" y="152" width="104" height="8" rx="4" fill="url(#accent)"/>
+
+  <!-- title -->
+  <text x="96" y="246" font-family="JetBrains Mono, SFMono-Regular, Consolas, Menlo, monospace" font-size="64" font-weight="800" fill="#ffffff">SANDIGEN</text>
+  <text x="96" y="326" font-family="JetBrains Mono, SFMono-Regular, Consolas, Menlo, monospace" font-size="64" font-weight="800" fill="url(#accent)">ULTRA</text>
+
+  <text x="96" y="382" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="27" fill="#c7d2fe">Password generator &amp; entropy auditor</text>
+
+  <!-- terminal prompt -->
+  <g transform="translate(96 420)">
+    <rect x="0" y="0" width="600" height="52" rx="10" fill="#000000" fill-opacity="0.34" stroke="#818cf8" stroke-opacity="0.45"/>
+    <text x="20" y="34" font-family="JetBrains Mono, SFMono-Regular, Consolas, Menlo, monospace" font-size="20">
+      <tspan fill="#818cf8">›</tspan><tspan fill="none"> </tspan><tspan fill="#e0e7ff">crypto.getRandomValues(Uint32Array(32))</tspan>
+    </text>
+  </g>
+
+  <!-- field chips -->
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700">
+    <g transform="translate(96 508)">
+      <rect x="0" y="0" width="126" height="42" rx="21" fill="#6366f1" fill-opacity="0.16" stroke="#6366f1" stroke-opacity="0.5"/>
+      <text x="63" y="27" text-anchor="middle" fill="#c7d2fe">CSPRNG</text>
+    </g>
+    <g transform="translate(240 508)">
+      <rect x="0" y="0" width="162" height="42" rx="21" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <text x="81" y="27" text-anchor="middle" fill="#ddd6fe">Salted Seed</text>
+    </g>
+    <g transform="translate(420 508)">
+      <rect x="0" y="0" width="178" height="42" rx="21" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.5"/>
+      <text x="89" y="27" text-anchor="middle" fill="#a5f3fc">Entropy Meter</text>
+    </g>
+    <g transform="translate(616 508)">
+      <rect x="0" y="0" width="150" height="42" rx="21" fill="#34d399" fill-opacity="0.14" stroke="#34d399" stroke-opacity="0.5"/>
+      <text x="75" y="27" text-anchor="middle" fill="#a7f3d0">Zero-Server</text>
+    </g>
+  </g>
+
+  <!-- side panel: audit readout -->
+  <g transform="translate(800 150)" font-family="JetBrains Mono, SFMono-Regular, Consolas, Menlo, monospace" font-size="20">
+    <rect x="0" y="0" width="384" height="292" rx="14" fill="#000000" fill-opacity="0.3" stroke="#a78bfa" stroke-opacity="0.28"/>
+    <text x="26" y="42" font-size="19" fill="#c4b5fd">password.audit</text>
+    <g font-size="18">
+      <text x="26" y="94" fill="#8b93b8">length</text>
+      <text x="358" y="94" text-anchor="end" fill="#e0e7ff">32</text>
+      <text x="26" y="136" fill="#8b93b8">charset</text>
+      <text x="358" y="136" text-anchor="end" fill="#e0e7ff">72</text>
+      <text x="26" y="178" fill="#8b93b8">entropy</text>
+      <text x="358" y="178" text-anchor="end" fill="#a5f3fc">195 bits</text>
+      <text x="26" y="220" fill="#8b93b8">source</text>
+      <text x="358" y="220" text-anchor="end" fill="#a7f3d0">CSPRNG</text>
+      <text x="26" y="262" fill="#8b93b8">server</text>
+      <text x="358" y="262" text-anchor="end" fill="#e0e7ff">none</text>
+    </g>
+    <rect x="0" y="0" width="4" height="292" rx="2" fill="url(#accent)" fill-opacity="0.65"/>
+  </g>
+
+  <text x="96" y="600" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#8b93b8">github.com/MrLowPr/SandiGenerate</text>
+  <text x="1184" y="600" text-anchor="end" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" fill="#818cf8">MIT</text>
+</svg>

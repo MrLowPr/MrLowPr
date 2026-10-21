@@ -118,9 +118,54 @@ change is listed in [FORK-NOTES.md](https://github.com/MrLowPr/overdrive/blob/ma
 
 ---
 
+## 📌 Featured work — SandiGen Ultra
+
+<img src="assets/banner-sandigen.svg" alt="SandiGen Ultra" width="100%">
+
+### Cryptographically secure password generation — CSPRNG, zero server
+
+[![Live app](https://img.shields.io/badge/live-mrlowpr.github.io%2FSandiGenerate-4F46E5?style=for-the-badge&logo=github&logoColor=white)](https://mrlowpr.github.io/SandiGenerate/)
+[![Repo](https://img.shields.io/badge/github-MrLowPr%2FSandiGenerate-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MrLowPr/SandiGenerate)
+
+A browser-based password vault. Every character comes from `crypto.getRandomValues` — a CSPRNG, not
+`Math.random` — and the result is shuffled with a CSPRNG-driven Fisher–Yates pass, so the output is
+neither guessable nor patterned.
+
+<table>
+  <tr>
+    <td width="140" valign="top"><b>Randomness</b></td>
+    <td valign="top"><code>crypto.getRandomValues</code> over a 72-character alphabet (A–Z, a–z, 0–9, symbols) · CSPRNG Fisher–Yates shuffle · optional personal salt mixed into the seed.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>Strength</b></td>
+    <td valign="top">Live entropy readout in bits with a <i>Standard</i> / <i>Elite</i> verdict · length slider from 12 to 64 characters · 195 bits at the default 32-character length.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>Privacy</b></td>
+    <td valign="top">Zero-server — generation and auditing happen entirely in the browser, nothing is transmitted, logged or stored.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>Interface</b></td>
+    <td valign="top">Glassmorphism vault UI · wallpaper engine with exposure and focus sliders · single-file, dependency-light build.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>License</b></td>
+    <td valign="top">MIT</td>
+  </tr>
+  </table>
+
+<p align="center">
+  <a href="https://github.com/MrLowPr/SandiGenerate"><b>Source code</b></a> &nbsp;·&nbsp;
+  <a href="https://mrlowpr.github.io/SandiGenerate/"><b>Live app</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/MrLowPr/SandiGenerate#readme"><b>Usage</b></a>
+</p>
+
+The live build sits behind a master key — `admin`, as published in the repository README.
+
+---
+
 ## Other work
 
-- **[SandiGenerate](https://github.com/MrLowPr/SandiGenerate)** — password generator and strength tester running on `crypto.getRandomValues` (CSPRNG) instead of `Math.random`, so the output is not guessable.
 - **[MrLowPr/overdrive](https://github.com/MrLowPr/overdrive)** — the Overdrive fork, with source recovered and every fork-specific delta documented.
 - **[The Ultimate CTF Utils](https://github.com/MrLowPr/The-Ultimate-CTF-Utils)** — six CTF triage tools shipped as one npm package.
 
