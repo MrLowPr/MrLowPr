@@ -11,6 +11,57 @@
 
 ---
 
+## 📌 Featured work — WriteUp Forge
+
+<img src="assets/banner-writeup-forge.svg" alt="WriteUp Forge" width="100%">
+
+### Generator write-up CTF — 100% offline, zero dependency
+
+[![Live app](https://img.shields.io/badge/live-mrlowpr.github.io%2Fwriteup--forge-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://mrlowpr.github.io/writeup-forge/)
+[![Repo](https://img.shields.io/badge/github-MrLowPr%2Fwriteup--forge-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MrLowPr/writeup-forge)
+
+A web app that turns raw CTF notes into a clean write-up. Plain HTML + CSS + vanilla JavaScript —
+no build step, no package manager, no CDN, and it still works with the network switched off.
+
+<table>
+  <tr>
+    <td width="140" valign="top"><b>Editor</b></td>
+    <td valign="top">Profile · event and report metadata · many challenges per report, each with description, attachments, hints, tools, recon, numbered steps, solver script, flag, mitigation, lessons learned and references.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>Markdown</b></td>
+    <td valign="top">Bold, italic, inline code, strikethrough, headings, lists, quotes, tables, fenced code blocks with lightweight syntax highlighting and copy buttons, links and images.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>Theme</b></td>
+    <td valign="top">7 colour presets · 3 layouts (Modern / Classic / Terminal) · 11 free colours · body, heading and code fonts (system font, a custom name, or an uploaded <code>.ttf/.otf/.woff</code> embedded into the export) · custom CSS.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>Flags</b></td>
+    <td valign="top">Plain, spoiler-on-click, partially redacted, or hidden.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>Export</b></td>
+    <td valign="top">Self-contained HTML (images and fonts embedded) · print / PDF · Markdown plus images as a ZIP · project <code>.json</code> — with a completeness checklist for every write-up.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>Privacy</b></td>
+    <td valign="top">100% offline — projects autosave to <code>localStorage</code>, nothing is ever uploaded.</td>
+  </tr>
+  <tr>
+    <td width="140" valign="top"><b>License</b></td>
+    <td valign="top">MIT</td>
+  </tr>
+  </table>
+
+<p align="center">
+  <a href="https://github.com/MrLowPr/writeup-forge"><b>Source code</b></a> &nbsp;·&nbsp;
+  <a href="https://mrlowpr.github.io/writeup-forge/"><b>Live app</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/MrLowPr/writeup-forge#readme"><b>Usage</b></a>
+</p>
+
+---
+
 ## 📌 Featured work — The Ultimate CTF Utils
 
 <img src="assets/banner-ctf-utils.svg" alt="The Ultimate CTF Utils" width="100%">
@@ -166,6 +217,7 @@ The live build sits behind a master key — `admin`, as published in the reposit
 
 ## Other work
 
+- **[WriteUp Forge](https://github.com/MrLowPr/writeup-forge)** — offline generator write-up CTF, with HTML / Markdown / PDF export and a completeness checklist.
 - **[MrLowPr/overdrive](https://github.com/MrLowPr/overdrive)** — the Overdrive fork, with source recovered and every fork-specific delta documented.
 - **[The Ultimate CTF Utils](https://github.com/MrLowPr/The-Ultimate-CTF-Utils)** — six CTF triage tools shipped as one npm package.
 
